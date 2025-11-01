@@ -1,0 +1,20 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+*.pyc
+
+# Node
+frontend/node_modules/
+frontend/.vite/
+dist/
+
+# Hugging Face model cache
+backend/.cache/
+~/.cache/
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
