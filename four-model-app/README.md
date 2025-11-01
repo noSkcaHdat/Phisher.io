@@ -1,12 +1,13 @@
-
+Clone the repo and replace your Virus total api key 
+Then follow below steps
 # Four-Model Phishing Detector
 
 ## Run backend
 ```bash
 cd backend
-python -m venv .venv && . .venv/bin/activate  # Windows: .venv\Scripts\activate
+python -m venv .venv && . .venv/bin/activate  #for windows
 pip install -r requirements.txt
-cp .env.example .env   # set VT_API_KEY if you want VirusTotal checks
+cp .env.example .env   # change your VT apikey here
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
