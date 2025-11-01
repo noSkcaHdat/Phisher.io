@@ -19,3 +19,5 @@ backend/.cache/
 
 # OS files
 .DS_Store
+!four-model-app/backend/.env.example
+!four-model-app/frontend/.env.example
